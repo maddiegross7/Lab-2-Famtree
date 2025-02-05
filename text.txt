@@ -1,0 +1,70 @@
+adding Donald Pennington to people to printadding George Ackerman to people to printadding Hannah Pennington to people to printadding Jacob Oppenheim to people to printadding Patricia Pennington to people to printName: Carol Oppenheim                         
+Sex: F
+Father: Donald Pennington
+Mother: Patricia Pennington
+Children: Hester Oppenheim
+Visited: 0
+--------------------------
+Name: Donald Pennington                       
+Sex: M
+Father: None
+Mother: None
+Children: Jasper Pennington, Theresa Pennington, Carol Oppenheim
+Visited: 0
+--------------------------
+Name: George Ackerman                         
+Sex: M
+Father: None
+Mother: None
+Children: None
+Visited: 0
+--------------------------
+Name: Hannah Pennington                       
+Sex: F
+Father: None
+Mother: None
+Children: Katherine Pennington
+Visited: 0
+--------------------------
+Name: Hester Oppenheim                        
+Sex: Unknown
+Father: Jacob Oppenheim
+Mother: Carol Oppenheim
+Children: None
+Visited: 0
+--------------------------
+Name: Jacob Oppenheim                         
+Sex: M
+Father: None
+Mother: None
+Children: Hester Oppenheim
+Visited: 0
+--------------------------
+Name: Jasper Pennington                       
+Sex: M
+Father: Donald Pennington
+Mother: Patricia Pennington
+Children: Katherine Pennington
+Visited: 0
+--------------------------
+Name: Katherine Pennington                    
+Sex: F
+Father: Jasper Pennington
+Mother: Hannah Pennington
+Children: None
+Visited: 0
+--------------------------
+Name: Patricia Pennington                     
+Sex: F
+Father: None
+Mother: None
+Children: Jasper Pennington, Theresa Pennington, Carol Oppenheim
+Visited: 0
+--------------------------
+Name: Theresa Pennington                      
+Sex: Unknown
+Father: Donald Pennington
+Mother: Patricia Pennington
+Children: None
+Visited: 0
+--------------------------
