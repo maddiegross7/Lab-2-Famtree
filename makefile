@@ -1,7 +1,6 @@
 CC = gcc 
 INCLUDES = -I/home/mrjantz/cs360/include
-# INCLUDES = -I/home/mgross10/cs360/cs360-lecture-notes/Libfdr/include
-CFLAGS = $(INCLUDES)
+CFLAGS = $(INCLUDES) -g -Wall -Wextra
 LIBDIR = /home/mrjantz/cs360/lib
 LIBS = $(LIBDIR)/libfdr.a 
 
@@ -13,4 +12,8 @@ bin/famtree: src/famtree.c
 	$(CC) $(CFLAGS) -o bin/famtree src/famtree.c $(LIBS)
 
 clean:
-	rm core $(EXECUTABLES) *.o
+	rm -f core $(EXECUTABLES) *.o
+
+# Run Valgrind to check for memory leaks
+valgrind: bin/famtree
+	valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --verbose ./bin/famtree < data/fam1.txt
